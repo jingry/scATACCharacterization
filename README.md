@@ -10,7 +10,7 @@
 
   
 
-2019322030012@scu.edu.cn  
+2019322030012@stu.scu.edu.cn  
 
 jingry@scu.edu.cn  
 
