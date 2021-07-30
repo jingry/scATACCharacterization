@@ -1,36 +1,36 @@
-# scATACCharacterization
-A multiple comprehensive analysis of scATAC-seq based on auto-encoder and matrix decomposition
-###########################
-
-Author
-###########################
-2019322030012@scu.edu.cn
-jingry@scu.edu.cn
-
-
-overview
-###########################
-We performed a multiple comparison for characterizing analyzing scATAC-seq based on four kinds of auto-encoder neural networks, and two kinds of matrix factorization methods. The autoencoder neural networks are implemented in [Pytorch](https://pytorch.org/) framework. The NMF and Lsnmf is implemented in jupyter.
-
-
-
-Datasets
-###########################
-The dataset is from the work of “SCALE method for single-cell ATAC-seq analysis via latent feature extraction”, and the related web site is: https://github.com/jsxlei/SCALE 
-
-
-Usage:
-When training autoencoders，the user can enter the following commands
-############################
-1. General autoencoder 
-
-python AE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>
-
-EpochNum: Integer, the epoches for training.
-DataPath: String of path, the input file of the dataset.
-Outdir: String of path, the folder for saving the outputs.
-LatentFeatureNum: Integer, the size of the latent layer.
-LabelPath: String of path, the label file for UMAP plotting.
+# scATACCharacterization<br>
+A multiple comprehensive analysis of scATAC-seq based on auto-encoder and matrix decomposition<br>
+###########################<br>
+<br>
+Author<br>
+###########################<br>
+2019322030012@scu.edu.cn<br>
+jingry@scu.edu.cn<br>
+<br>
+<br>
+overview<br>
+###########################<br>
+We performed a multiple comparison for characterizing analyzing scATAC-seq based on four kinds of auto-encoder neural networks, and two kinds of matrix factorization methods. The autoencoder neural networks are implemented in [Pytorch](https://pytorch.org/) framework. The NMF and Lsnmf is implemented in jupyter.<br>
+<br>
+<br>
+<br>
+Datasets<br>
+###########################<br>
+The dataset is from the work of “SCALE method for single-cell ATAC-seq analysis via latent feature extraction”, and the related web site is: https://github.com/jsxlei/SCALE <br>
+<br>
+<br>
+Usage:<br>
+When training autoencoders，the user can enter the following commands<br>
+############################<br>
+1. General autoencoder <br>
+<br>
+'''python AE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>'''<br>
+<br>
+EpochNum: Integer, the epoches for training.<br>
+DataPath: String of path, the input file of the dataset.<br>
+Outdir: String of path, the folder for saving the outputs.<br>
+LatentFeatureNum: Integer, the size of the latent layer.<br>
+LabelPath: String of path, the label file for UMAP plotting.<br>
 
 ###########################
 2. Sparse auotoencoder
