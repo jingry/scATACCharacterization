@@ -3,9 +3,9 @@
 A multiple comprehensive analysis of scATAC-seq based on auto-encoder and matrix decomposition  
 
 ###########################  
-
   
-
+  
+  
 Author  
 
 ###########################  
