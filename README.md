@@ -2,13 +2,13 @@
 
 <h1>A multiple comprehensive analysis of scATAC-seq based on auto-encoder and matrix decomposition  </h1>
 
-###########################  
+  
   
   
   
 <h2>Author  </h2>
 
-###########################  
+  
 
 2019322030012@scu.edu.cn  
 
@@ -20,7 +20,7 @@ jingry@scu.edu.cn
 
 <h2>overview  </h2>
 
-###########################  
+  
 
 We performed a multiple comparison for characterizing analyzing scATAC-seq based on four kinds of auto-encoder neural networks, and two kinds of matrix factorization methods. The autoencoder neural networks are implemented in [Pytorch](https://pytorch.org/) framework. The NMF and Lsnmf is implemented in jupyter.  
 
@@ -30,9 +30,8 @@ We performed a multiple comparison for characterizing analyzing scATAC-seq based
 
   
 
-Datasets  
-
-###########################  
+<h2>Datasets  </h2>
+  
 
 The dataset is from the work of “SCALE method for single-cell ATAC-seq analysis via latent feature extraction”, and the related web site is: https://github.com/jsxlei/SCALE   
 
@@ -40,13 +39,13 @@ The dataset is from the work of “SCALE method for single-cell ATAC-seq analysi
 
   
 
-Usage:  
+<h2>Usage:  </h2>
 
 When training autoencoders，the user can enter the following commands  
 
-############################  
+  
 
-1. General autoencoder   
+<h3>1. General autoencoder   </h3>
 
   
 
@@ -66,9 +65,9 @@ LabelPath: String of path, the label file for UMAP plotting.
 
   
 
-###########################  
+  
 
-2. Sparse auotoencoder  
+<h3>2. Sparse auotoencoder  </h3>
 
   
 
@@ -88,9 +87,9 @@ LabelPath: String of path, the label file for UMAP plotting.
 
   
 
-###########################  
+  
 
-3. Stacked autoencoder   
+<h3>3. Stacked autoencoder   </h3>
 
   
 
@@ -112,9 +111,9 @@ LabelPath: String of path, the label file for UMAP plotting.
 
   
 
-###########################  
+  
 
-4. VAE  
+<h3>4. VAE  </h3>
 
   
 
@@ -134,9 +133,9 @@ LabelPath: String of path, the label file for UMAP plotting.
 
   
 
-###########################  
+  
 
-5.NMF & Lsnmf  
+<h3>5.NMF & Lsnmf  </h3>
 
 See code(NMF_Lsnmf.ipynb) for details  
 
