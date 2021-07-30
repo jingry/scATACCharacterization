@@ -1,12 +1,12 @@
 # scATACCharacterization  
 
-A multiple comprehensive analysis of scATAC-seq based on auto-encoder and matrix decomposition  
+<h1>A multiple comprehensive analysis of scATAC-seq based on auto-encoder and matrix decomposition  </h1>
 
 ###########################  
   
   
   
-Author  
+<h2>Author  </h2>
 
 ###########################  
 
@@ -18,7 +18,7 @@ jingry@scu.edu.cn
 
   
 
-overview  
+<h2>overview  </h2>
 
 ###########################  
 
