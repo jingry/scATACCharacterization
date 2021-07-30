@@ -35,7 +35,7 @@ LabelPath: String of path, the label file for UMAP plotting.<br>
 ###########################<br>
 2. Sparse auotoencoder<br>
 <br>
-```python SparseAE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>```<br>
+`python SparseAE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>`<br>
 <br>
 EpochNum: Integer, the epoches for training.<br>
 DataPath: String of path, the input file of the dataset.<br>
