@@ -24,48 +24,48 @@ When training autoencoders，the user can enter the following commands<br>
 ############################<br>
 1. General autoencoder <br>
 <br>
-'''python AE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>'''<br>
+```python AE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>```<br>
 <br>
 EpochNum: Integer, the epoches for training.<br>
 DataPath: String of path, the input file of the dataset.<br>
 Outdir: String of path, the folder for saving the outputs.<br>
 LatentFeatureNum: Integer, the size of the latent layer.<br>
 LabelPath: String of path, the label file for UMAP plotting.<br>
-
-###########################
-2. Sparse auotoencoder
-
-python SparseAE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>
-
-EpochNum: Integer, the epoches for training.
-DataPath: String of path, the input file of the dataset.
-Outdir: String of path, the folder for saving the outputs.
-LatentFeatureNum: Integer, the size of the latent layer.
-LabelPath: String of path, the label file for UMAP plotting.
-
-###########################
-3. Stacked autoencoder 
-
-python StackedAE.py <preTrainEpochNum> <wholeTrainEpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>
-
-preTrainEpochNum: Integer, the epoches for pre-training.
-wholeTrainEpochNum: Integer, the epoches for whole-training.
-DataPath: String of path, the input file of the dataset.
-Outdir: String of path, the folder for saving the outputs.
-LatentFeatureNum: Integer, the size of the latent layer.
-LabelPath: String of path, the label file for UMAP plotting.
-
-###########################
-4. VAE
-
-python VAE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>
-
-EpochNum: Integer, the epoches for training.
-DataPath: String of path, the input file of the dataset.
-Outdir: String of path, the folder for saving the outputs.
-LatentFeatureNum: Integer, the size of the latent layer.
-LabelPath: String of path, the label file for UMAP plotting.
-
-###########################
-5.NMF & Lsnmf
-See code(NMF_Lsnmf.ipynb) for details
+<br>
+###########################<br>
+2. Sparse auotoencoder<br>
+<br>
+```python SparseAE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>```<br>
+<br>
+EpochNum: Integer, the epoches for training.<br>
+DataPath: String of path, the input file of the dataset.<br>
+Outdir: String of path, the folder for saving the outputs.<br>
+LatentFeatureNum: Integer, the size of the latent layer.<br>
+LabelPath: String of path, the label file for UMAP plotting.<br>
+<br>
+###########################<br>
+3. Stacked autoencoder <br>
+<br>
+```python StackedAE.py <preTrainEpochNum> <wholeTrainEpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>```<br>
+<br>
+preTrainEpochNum: Integer, the epoches for pre-training.<br>
+wholeTrainEpochNum: Integer, the epoches for whole-training.<br>
+DataPath: String of path, the input file of the dataset.<br>
+Outdir: String of path, the folder for saving the outputs.<br>
+LatentFeatureNum: Integer, the size of the latent layer.<br>
+LabelPath: String of path, the label file for UMAP plotting.<br>
+<br>
+###########################<br>
+4. VAE<br>
+<br>
+```python VAE.py <EpochNum> <DataPath> <Outdir> <LatentFeatureNum> <LabelPath>```<br>
+<br>
+EpochNum: Integer, the epoches for training.<br>
+DataPath: String of path, the input file of the dataset.<br>
+Outdir: String of path, the folder for saving the outputs.<br>
+LatentFeatureNum: Integer, the size of the latent layer.<br>
+LabelPath: String of path, the label file for UMAP plotting.<br>
+<br>
+###########################<br>
+5.NMF & Lsnmf<br>
+See code(NMF_Lsnmf.ipynb) for details<br>
